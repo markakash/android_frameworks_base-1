@@ -5013,7 +5013,10 @@ public final class Settings {
         public static final String STATUSBAR_CLOCK_DATE_POSITION = "statusbar_clock_date_position";
 
         /**
-         * Wheter to show network traffic indicator in statusbar
+         * Where to display the network traffic indicator
+         * 	0: None/disabled
+         * 	1: Statusbar
+         * 	2: Expanded statusbar
          * @hide
          */
         public static final String NETWORK_TRAFFIC_STATE = "network_traffic_state";
@@ -5025,7 +5028,7 @@ public final class Settings {
         public static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
 
         /**
-         * What to show in network traffic indicator in statusbar
+         * Type of speed indicator to display for network traffic
          * @hide
          */
         public static final String NETWORK_TRAFFIC_TYPE = "network_traffic_type";
